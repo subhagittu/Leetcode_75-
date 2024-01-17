@@ -3,7 +3,7 @@ public:
     int minFlips(int a, int b, int c) {
   int flips = 0;
     
-
+ 
      for(int i = 0; (1 << i) <= max(max(a, b), c); i++)
      {
             int bit = 1 << i;
