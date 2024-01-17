@@ -4,7 +4,7 @@ int ans=0;
     void dfs(unordered_map<int,vector<int>>&mp ,unordered_map<int,bool>&vis,int m){
         vis[m]=true;
         for(auto i:mp[m]){
-            if(i>=0){
+            if(i>=0){ 
                 if(!vis[i]){    
                     dfs(mp,vis,i);
                 }
