@@ -6,7 +6,7 @@ public:
         }
         
         queue<TreeNode*> q;
-        q.push(root);
+        q.push(root); 
         
         vector<int> result;
         
