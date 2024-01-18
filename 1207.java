@@ -3,7 +3,7 @@ class Solution {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i : arr) {
             map.put(i, map.getOrDefault(i, 0) + 1); 
-        }
+        } 
 
         Set<Integer> set = map.entrySet().stream()
         .map(Map.Entry::getValue)
