@@ -2,7 +2,8 @@ struct Node{
     Node* links[26];
     bool flag = false;
     vector<string>words;
-    bool containsKey(char ch){
+    bool containsKey(char ch)
+{
         return links[ch-'a']!=NULL;
     }
     void put(char ch,Node* node){
