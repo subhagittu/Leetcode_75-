@@ -19,7 +19,7 @@ class Solution {
          if (start != null)
          {
              count.set(count.get() + 1);
-             right = !right;
+             right = !right; 
              dfs(count, right, !right ? start.right : start.left, maxCount);
              right = !right;
              count.set(count.get() + 1);
