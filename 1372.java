@@ -13,7 +13,8 @@
  *     }
  * }
  */
-class Solution {
+class Solution 
+{
      public void dfs(AtomicInteger count, boolean right, TreeNode start, AtomicInteger maxCount)
      {
          if (start != null)
