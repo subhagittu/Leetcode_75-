@@ -5,7 +5,8 @@ public:
     StockSpanner() {   
     }
     
-    int next(int price) { 
+    int next(int price) 
+{ 
         if(st.empty()) {
             st.push({price,0});
             len=1;
