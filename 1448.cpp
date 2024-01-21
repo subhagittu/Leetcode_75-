@@ -4,7 +4,7 @@ public:
         int good = 0;
         dfs(root, INT_MIN, good);
         return good;
-    }
+    } 
 
     void dfs(TreeNode* root, int max_val, int& good) {
         if (root == NULL) {
