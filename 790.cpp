@@ -7,7 +7,7 @@ public:
             next = ((third * 2) %mod + first)%mod ;
             first = second ;
             second = third ;
-            third = next ;
+            third = next ; 
         }
         return third ;
     }
