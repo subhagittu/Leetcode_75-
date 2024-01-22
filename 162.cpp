@@ -1,6 +1,7 @@
 class Solution {
 public:
-    int findPeakElement(vector<int>& nums) {
+    int findPeakElement(vector<int>& nums) 
+{
         int e = nums.size()-1;
         int s = 0;
         int index;
