@@ -1,6 +1,8 @@
 class Solution {
 public:
-    void dfs(int j,vector<bool> &vis,vector<int> adj[]){
+    void dfs(int j,vector<bool> &vis,vector<int> adj[])
+
+{
         vis[j]=true;
         for(auto x:adj[j]){
             if(!vis[x]){
@@ -8,6 +10,9 @@ public:
             }
         }
     }
+
+
+
     int findCircleNum(vector<vector<int>>& v) {
         int n=(int)v.size();
         const int N=444;
