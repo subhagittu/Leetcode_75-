@@ -5,7 +5,7 @@ class Solution {
         int c = 1;
         int sum=0;
         if(n==0){
-            return 0;
+            return 0; 
         }
         for(int i =3;i<=n;i++){
             sum=a+b+c;
