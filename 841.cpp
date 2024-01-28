@@ -3,7 +3,7 @@ public:
     bool check(vector<int> v){
         for(int i=0; i<v.size(); i++) if(v[i] != 1) return false; 
         return true; 
-    }
+    } 
 
     bool canVisitAllRooms(vector<vector<int>>& rooms) {
         vector<int> visited(rooms.size(), 0); int n = rooms.size(); 
