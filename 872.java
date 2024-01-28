@@ -8,7 +8,7 @@ class Solution {
         boolean right = verifyTree(root.right,l);
        
        if(root.left==null && root.right==null)
-       {
+       { 
            if(index>l.size())return false;
             if(index<l.size() && root.val!=l.get(index))
             {
