@@ -10,5 +10,5 @@ public:
             third = next ; 
         }
         return third ;
-    }
+    } 
 };
