@@ -10,7 +10,7 @@ class Solution {
                 if (visited[i][j] == 2) {
                     q.offer(new int[] {i, j});
                 }
-                if (visited[i][j] == 1) {
+                if (visited[i][j] == 1) { 
                     countFreshOrange++;
                 }
             }
