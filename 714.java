@@ -3,7 +3,7 @@ class Solution {
     
     {
         int buy = Integer.MIN_VALUE;
-        int sell = 0;
+        int sell = 0; 
 
         for (int price : prices) {
             buy = Math.max(buy, sell - price);
