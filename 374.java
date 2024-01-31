@@ -7,8 +7,10 @@
  * int guess(int num);
  */
 
-public class Solution extends GuessGame {
-    public int guessNumber(int n) {
+public class Solution extends GuessGame 
+{
+    public int guessNumber(int n) 
+    {
         // We are using Binay search.
         int start=1,end=n;
         while(start<=end){
@@ -16,13 +18,16 @@ public class Solution extends GuessGame {
             int guessNumber=guess(mid);
 
             // Alredy given this guess function give us three kind of out-put, So according this,we write three if statements.   
-            if(guessNumber==-1){
+            if(guessNumber==-1)
+            {
                 end=mid-1;
             }
-            else if (guessNumber==1){
+            else if (guessNumber==1)
+            {
                 start=mid+1;
             }
-            else{
+            else
+            {
                 return mid;
             }
         }
