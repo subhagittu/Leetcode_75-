@@ -1,13 +1,16 @@
 class Solution {
 public:
 
-    string decodeString(string s) {
+    string decodeString(string s) 
+{
         stack<pair<int, string>> ans_helper;
         string ans = "";
         int i = 0;
-        while(i < s.length()) {
+        while(i < s.length()) 
+        {
             // Number and empty string
-            if(s[i] - '0' <= 9 && s[i] - '0' >= 0) {
+            if(s[i] - '0' <= 9 && s[i] - '0' >= 0) 
+            {
                 int num_begin = i;
                 while(s[i] - '0' <= 9 && s[i] - '0' >= 0)
                     i++;
@@ -15,7 +18,8 @@ public:
                 ans_helper.push({number, ""});
                 continue;
             }
-            if(s[i] - 'a' >= 0 && s[i] - 'a' <= 26) {
+            if(s[i] - 'a' >= 0 && s[i] - 'a' <= 26) 
+            {
                 int str_begin = i;
                 while(s[i] - 'a' >= 0 && s[i] - 'a' <= 26)
                     i++;
