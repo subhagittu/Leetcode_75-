@@ -34,7 +34,8 @@ public:
         }
         add.pop_back();
     }
-    int pathSum(TreeNode* root, int targetSum) {
+    int pathSum(TreeNode* root, int targetSum) 
+{
 
         int path = 0;
         vector<int> add;
