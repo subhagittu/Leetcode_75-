@@ -22,7 +22,8 @@ public:
         }
         return;
     }
-    vector<double> calcEquation(vector<vector<string>>& e, vector<double>& v, vector<vector<string>>& q) {
+    vector<double> calcEquation(vector<vector<string>>& e, vector<double>& v, vector<vector<string>>& q)
+{
    mp.clear();
    res.clear();
    s.clear();
