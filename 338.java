@@ -1,7 +1,7 @@
 class Solution {
     public int[] countBits(int n) {
         int res[] = new int[n+1];
-        for(int num = 0; num <= n; num++){
+        for(int num = 0; num <= n; num++){ 
             res[num] = (bitCnt(num));
         }
         return res;
