@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool increasingTriplet(vector<int>& nums) {
+    bool increasingTriplet(vector<int>& nums)  {
         vector<int> lis ;
         for(int i = 0 ;i < nums.size(); i++){
             if(lis.size()==0 or lis.back()<nums[i]){
