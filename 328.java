@@ -1,7 +1,7 @@
 class Solution {
     public ListNode oddEvenList(ListNode head) {
         int idx=1;
-
+ 
         ListNode headO=new ListNode(-1);
         ListNode headE=new ListNode(-1);
 
