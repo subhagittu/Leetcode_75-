@@ -2,7 +2,7 @@ class Solution {
     public String reverseVowels(String s) {
         char[] word = s.toCharArray();
         int start = 0;
-        int end = s.length() - 1;
+        int end = s.length() - 1; 
         String vowels = "aeiouAEIOU";
         
         while (start < end) {
