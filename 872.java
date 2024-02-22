@@ -3,7 +3,7 @@ class Solution {
     public boolean verifyTree(TreeNode root,List<Integer> l)
     
     {
-        if(root==null)return true;
+        if(root==null)return true; 
         boolean left = verifyTree(root.left,l);
         boolean right = verifyTree(root.right,l);
        
