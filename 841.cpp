@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool check(vector<int> v){
+    bool check(vector<int> v){ 
         for(int i=0; i<v.size(); i++) if(v[i] != 1) return false; 
         return true; 
     } 
