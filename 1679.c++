@@ -1,7 +1,7 @@
 class Solution {
 public:
     int maxOperations(vector<int>& a, int k) {
-        int ans=0;
+        int ans=0; 
         map<int,int>m;
         for(auto &i:a)m[i]++;
         for(auto &i:m){
