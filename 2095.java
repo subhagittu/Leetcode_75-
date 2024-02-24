@@ -10,7 +10,7 @@
  */
 class Solution {
     public ListNode deleteMiddle(ListNode head) {
-        if(head==null)return head;
+        if(head==null)return head; 
         ListNode curr=head;int c=0;
         // Calculating the size of linked list
         while(curr!=null){
