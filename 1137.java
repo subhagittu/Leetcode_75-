@@ -3,7 +3,7 @@ class Solution {
         int a =0;
         int b =1;
         int c = 1;
-        int sum=0;
+        int sum=0; 
         if(n==0){
             return 0; 
         }
