@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
 public:
     bool increasingTriplet(vector<int>& nums)  {
         vector<int> lis ;
