@@ -11,7 +11,7 @@ public class Solution extends GuessGame
 {
     public int guessNumber(int n) 
     {
-        // We are using Binay search.
+        // We are using Binay search. 
         int start=1,end=n;
         while(start<=end){
             int mid = start+(end-start)/2;
