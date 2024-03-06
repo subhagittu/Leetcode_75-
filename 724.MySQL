@@ -4,7 +4,7 @@ class Solution {
 {
       
         int totalSum = 0;
-        
+         
         int leftsum = 0;
        
         for (int ele : nums) 
