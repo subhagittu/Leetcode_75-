@@ -5,7 +5,7 @@ class Solution {
         int[][] visited = grid;
         Queue<int[]> q = new LinkedList<>();
         int countFreshOrange = 0;
-        for (int i = 0; i < m; i++) {
+        for (int i = 0; i < m; i++) { 
             for (int j = 0; j < n; j++) {
                 if (visited[i][j] == 2) {
                     q.offer(new int[] {i, j});
