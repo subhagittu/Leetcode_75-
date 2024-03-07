@@ -1,7 +1,7 @@
 class Solution {
 public:
     int rangeBitwiseAnd(int l, int r) {
-        long i=0,j,s=INT_MAX;
+        long i=0,j,s=INT_MAX; 
         if(l==r) return l;
         while(pow(2,i)<=r) 
         {
