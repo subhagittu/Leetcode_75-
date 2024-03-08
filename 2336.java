@@ -4,7 +4,7 @@ class SmallestInfiniteSet {
     public SmallestInfiniteSet() {
         count = new int[1002];
         Arrays.fill(count,1);
-    }
+    } 
     
     public int popSmallest() {
         
