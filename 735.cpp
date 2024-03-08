@@ -11,7 +11,7 @@ public:
                 while(!s.empty() && s.back() > 0 && i < 0) {
                     if(abs(s.back()) < abs(i)) {
                         s.pop_back();
-                    }
+                    } 
                     else if(abs(s.back()) == abs(i)) {
                         s.pop_back();
                         flag = 0;
