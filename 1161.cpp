@@ -10,7 +10,7 @@
  * };
  */
 class Solution {
-public:
+public: 
     int maxLevelSum(TreeNode* root) 
     {
         int maxsum=INT_MIN,levelctr=1,ans;
