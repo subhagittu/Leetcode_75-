@@ -6,7 +6,7 @@ public:
         vis[j]=true;
         for(auto x:adj[j]){
             if(!vis[x]){
-                dfs(x,vis,adj);
+                dfs(x,vis,adj);  
             }
         }
     }
