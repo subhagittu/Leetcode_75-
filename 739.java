@@ -3,7 +3,7 @@ class Solution {
         int[] answer = new int[temperatures.length];
         Stack<Integer> indices = new Stack<>();  
         for (int i = 0; i < temperatures.length; i++){
-            if (i+1 >= temperatures.length){
+            if (i+1 >= temperatures.length){  
                 answer[i] = 0;     
                 while((!indices.isEmpty())){
                     answer[indices.pop()] = 0; 
